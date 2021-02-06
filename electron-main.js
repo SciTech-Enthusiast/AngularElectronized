@@ -9,7 +9,7 @@ function createWindow () {
     }
   })
 
-  win.loadFile('./dist/demo/index.html')
+  win.loadFile('./dist/angular-build/index.html')
 }
 
 app.whenReady().then(createWindow)

@@ -52,10 +52,16 @@ npm install electron-packager -g
 
 ----------
 
+#### Useful links
+
+- [angular electron communication](https://developer.okta.com/blog/2019/03/20/build-desktop-app-with-angular-electron)
+
+- [electron cookies](https://www.electronjs.org/docs/api/cookies)
 
 
 
 
+----------
 
 # Demo
 

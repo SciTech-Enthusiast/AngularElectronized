@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+.placeholder{
+    min-height: 600px;
+}
+
+.placeholder-sm{
+    min-height: 80px;
+    border-radius: 3%;
+}
+
+
+.flag { 
+    background: linear-gradient(0deg, #138808 33%, #ffffff 33%, #ffffff 66%, #FF9933 66% );
+    width: 25px;
+    height: 15px;
+}

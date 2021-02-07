@@ -1,0 +1,30 @@
+[
+    {
+        "name":"Github API Test",
+        "author":"SciTechEnthusiast",
+        "icon_url":"https://github.githubassets.com/images/modules/logos_page/Octocat.png",
+        "route":"github-api-test",
+        "description":""
+    },
+    {
+        "name":"REST API Test",
+        "author":"SciTechEnthusiast",
+        "icon_url":"https://img.icons8.com/color/48/000000/api-settings.png",
+        "route":"rest-api-test",
+        "description":""
+    },
+    {
+        "name":"Background Generator Test",
+        "author":"SciTechEnthusiast",
+        "icon_url":"https://img.icons8.com/ios/50/000000/wallpaper.png",
+        "route":"background-generator-test",
+        "description":""
+    },
+    {
+        "name":"Colors Test",
+        "author":"SciTechEnthusiast",
+        "icon_url":"https://img.icons8.com/cute-clipart/64/000000/paint-palette.png",
+        "route":"colors-test",
+        "description":""
+    }
+]

@@ -1,0 +1,14 @@
+<div class="w3-container  w3-card w3-padding placeholder w3-light-gray">
+    <input type="text" [(ngModel)]="searchText" class="w3-input w3-round-large w3-border-0" placeholder="Search..">
+    <ul class="w3-ul w3-margin" *ngIf="apps">
+        <li class="w3-bar w3-border w3-border-teal" *ngFor="let app of apps |appsfilter:searchText">
+          <img src="{{app.icon_url}}" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+          <div class="w3-bar-item">
+            <a class="w3-text-teal w3-border" [routerLink]="[app.route]"><span class="w3-medium">{{app.name}}</span></a><br>
+            <span>{{app.description}}</span>
+            <span class="w3-small">By - {{app.author}}</span>
+          </div>
+        </li>
+    </ul>
+</div>
+

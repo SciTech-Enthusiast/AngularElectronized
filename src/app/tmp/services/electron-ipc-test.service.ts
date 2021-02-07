@@ -1,7 +1,10 @@
 import { Injectable } from '@angular/core';
 
-//const electron=<any>window;
-const electron = (<any>window).require('electron');
+////use below line while working with angular
+const electron=<any>window;
+
+////use below line while working with electron
+//const electron = (<any>window).require('electron');
 
 @Injectable({
   providedIn: 'root'

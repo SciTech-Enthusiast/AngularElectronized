@@ -32,19 +32,20 @@ export class ElectronCookieTestComponent implements OnInit {
   update(elemet: HTMLInputElement): void {
     if (elemet?.value)
       console.log("called " + elemet.value)
-    this.loadData(elemet.value)
-    var result=this.electronService.setCookie({ url: 'https://github.com', name: 'username', value: elemet.value, expirationDate: 9999999999 })
-    if (result)
-      console.log('data saved')
+      this.loadData(elemet.value)
+      // var result=this.electronService.setCookie({ url: 'https://github.com', name: 'username', value: elemet.value, expirationDate: 9999999999 })
+      // if (result)
+      //   console.log('data saved')
   }
 
   ngOnInit(): void {
-    var cookie =this.electronService.getCookie({ name: 'username' })
-    if(cookie){
-      console.log(cookie[0]['value'])
-      this.username = cookie[0]["value"]
-      this.loadData(this.username)
-    }
+    // var cookie =this.electronService.getCookie({ name: 'username' })
+    // if(cookie){
+    //   console.log(cookie[0]['value'])
+    //   this.username = cookie[0]["value"]
+    //   this.loadData(this.username)
+    // }
+    this.loadData()
   }
 
   showCookie() {
